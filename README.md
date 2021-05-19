@@ -1,10 +1,10 @@
-# svelte-atom-input
+# svelte-atom-text
 
 [![Build Status][ci-img]][ci]
 
 
-[ci-img]:  https://github.com/lagden/svelte-atom-input/workflows/Node.js%20CI/badge.svg
-[ci]:      https://github.com/lagden/svelte-atom-input/actions?query=workflow%3A%22Node.js+CI%22
+[ci-img]:  https://github.com/lagden/svelte-atom-text/workflows/Node.js%20CI/badge.svg
+[ci]:      https://github.com/lagden/svelte-atom-text/actions?query=workflow%3A%22Node.js+CI%22
 
 ---
 
@@ -13,7 +13,7 @@ Svelte component
 ## Install
 
 ```
-$ yarn add @tadashi/svelte-atom-input@lagden/svelte-atom-input#1.0.0 -D
+$ yarn add @tadashi/svelte-atom-text@lagden/svelte-atom-text#1.0.0 -D
 ```
 
 ## Usage
