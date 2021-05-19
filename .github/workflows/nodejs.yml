@@ -28,7 +28,7 @@ jobs:
       - run: >
           echo 'nodeLinker: node-modules' >> .yarnrc.yml
       - run: yarn cache clean --all
-      - run: yarn install
+      - run: YARN_CHECKSUM_BEHAVIOR=update yarn
       - run: npm test
         env:
           CI: true
