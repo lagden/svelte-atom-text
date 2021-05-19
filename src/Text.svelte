@@ -11,12 +11,11 @@
 	export let showError = true
 	export let label = false
 
+	let css = ''
+	export {css as class}
+
 	// Class - CSS
 	const styleInput = outline ? '_atom_frm__outline' : '_atom_frm__standard'
-	const restPropsClass = String($$restProps?.class ?? '').split(' ')
-	$$restProps.class = [
-		...new Set([styleInput, ...restPropsClass])
-	].join(' ')
 
 	// ID used for label
 	$$restProps.id = $$restProps?.id ?? `${name}_${Number(Math.random()).toString(26).slice(2)}`
@@ -51,6 +50,7 @@
 		>{@html label}</Label>
 	{/if}
 	<Input
+		class="{styleInput} {css}"
 		bind:this={component}
 		bind:value
 		on:input
