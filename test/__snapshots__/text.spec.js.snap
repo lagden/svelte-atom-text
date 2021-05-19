@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should match snapshot default 1`] = `
+<body>
+  <div>
+    <div
+      class=""
+    >
+       
+      <input
+        class="_atom_frm__base _atom_frm__standard "
+        id="foo"
+        name="test"
+        type="text"
+      />
+       
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Text should match snapshot props 1`] = `
+<body>
+  <div>
+    <div
+      class="customCssDiv"
+    >
+      <label
+        class="_atom_frm__label _atom_frm__label___required"
+        for="bar"
+        required="true"
+      >
+        <b>
+          Test
+        </b>
+        
+      </label>
+       
+      <input
+        class="_atom_frm__base _atom_frm__outline customCss"
+        id="bar"
+        name="test"
+        required=""
+        type="tel"
+      />
+       
+      <small
+        class="_atom_frm__error___message"
+        title="Constraints not satisfied"
+      >
+        Constraints not satisfied
+      </small>
+    </div>
+  </div>
+</body>
+`;
